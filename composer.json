@@ -1,6 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "broco/laravel",
+    "description": "Customized Laravel Framework for Broco.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
