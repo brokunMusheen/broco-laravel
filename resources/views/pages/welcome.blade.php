@@ -1,3 +1,5 @@
+@extends('layouts.main')
+
 @section('title', 'Broco - Welcome')
 
 @section('head_includes')
