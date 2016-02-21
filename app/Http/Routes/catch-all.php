@@ -7,7 +7,7 @@ Route::get('{page}', function($page) {
     if(view()->exists($view_route)) {
         return view($view_route);
     } else {
-        return view('errors.missing', [], 404);
+        abort(404, 'Page not found');
     }
 
 })->where('page', '[a-zA-Z0-9/]+');
